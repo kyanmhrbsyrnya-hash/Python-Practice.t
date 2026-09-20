@@ -1,0 +1,32 @@
+def cube_volume(s):
+    return(s*s*s)
+side=int(input('لطفاضلع را وارد کنید'))
+cube=cube_volume(side)
+print(cube)
+
+
+####
+def sum_numbers(a, b):
+    return (a + b)
+result = sum_numbers(5, 3)
+print(result)
+
+
+
+####
+def square(n):
+    return n * n
+four=square(4)
+five=square(5)
+print(four+five)
+
+
+
+####
+def average_three(nu1,nu2,nu3):
+    return(nu1+nu2+nu3)/3
+num1=int(input('عدد'))
+num2=int(input('عدد'))
+num3=int(input('عدد'))
+avarge=average_three(num1,num2,num3)
+print(avarge)
